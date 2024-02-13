@@ -16,8 +16,10 @@ header {
     background-position: center center;
     background-size: cover;
     display: flex;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
+
+    background: #b833ff; 
+    background: -webkit-linear-gradient(to right, #b833ff, #6800df);  
+    background: linear-gradient(to right, #b833ff, #6800df);
   }
 
 .container {
@@ -25,7 +27,7 @@ header {
     margin: 0 auto;
 }
 
-/*.menu {
+.menu {
     position: absolute;
     top: 10%;
     height: 100%;
@@ -36,7 +38,7 @@ header {
     align-items: center;
     float: left;
     z-index: 1000;
-}*/
+}
 
 nav ul {
     list-style: none;
@@ -58,7 +60,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ee00ff;
+    color: #e48aff;
 }
 
 .menu {
@@ -94,11 +96,11 @@ nav ul li a:hover {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img{
+img {
     display: block;
     width: 500px;
     object-fit: cover;
@@ -109,7 +111,7 @@ p{
     padding: 25px;
 }
 
-.container{
+.container {
     width: 90%;
     display: flex;
     align-items: center;
@@ -117,22 +119,28 @@ p{
     margin: auto; 
 }
 
-.banner{
+.banner {
     background: #b833ff; 
     background: -webkit-linear-gradient(to right, #b833ff, #6800df);  
     background: linear-gradient(to right, #b833ff, #6800df);
 }   
 
-.titulo{
+.titulo {
     color: white;
     font-size: 200%;
 }
 
-.wave{
+.wave {
     height: 100px;
     width: 100%;
 
     background: #b833ff; 
     background: -webkit-linear-gradient(to right, #b833ff, #6800df);  
     background: linear-gradient(to right, #b833ff, #6800df);
+}
+
+/*----Divisón----*/
+
+.text img {
+    border-radius: 5%;
 }
